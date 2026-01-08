@@ -288,8 +288,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215688, g: 0.38138917, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -703,9 +703,25 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -188.99997
       objectReference: {fileID: 0}
+    - target: {fileID: 106600703776616932, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ea1ffbecffd6a04e82643fd90ae1e6e, type: 3}
+    - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_text
+      value: UI Exercise
+      objectReference: {fileID: 0}
+    - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_fontSize
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_margin.w
       value: -1704.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 389130947858778522, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_Color.a
@@ -723,6 +739,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 774859665066494530, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6cde8689f79daef4ca1d73b91a7c2e83, type: 3}
     - target: {fileID: 1990820141037419981, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -759,6 +779,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3638199495195298078, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4219683064499263706, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 10
@@ -791,6 +815,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6880804822835049102, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: baeb018aa1f4d7d47beb433793486c76, type: 3}
     - target: {fileID: 7158801347624491695, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

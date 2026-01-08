@@ -8,9 +8,7 @@ namespace Screens
 {
     public enum ScreenType
     {
-        Play_Button,
-        Leave_Button,
-        About_Button
+        Main_Menu_Panel
     }
     public class ScreenBase : MonoBehaviour
     {
@@ -32,14 +30,14 @@ namespace Screens
         }
 
         [Button]
-        protected virtual void Show()
+        public virtual void Show()
         {
             ShowObjects();
             Debug.Log("Show");
         }
 
         [Button]
-        protected virtual void Hide()
+        public virtual void Hide()
         {
             Debug.Log("Hide");
             HideObjects();
