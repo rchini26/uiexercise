@@ -238,15 +238,10 @@ MonoBehaviour:
   listOfObjects:
   - {fileID: 322429093}
   - {fileID: 1056259789}
-  - {fileID: 260448174}
+  - {fileID: 0}
   startHidden: 0
   animationDuration: 0.3
   delayBetweenObjects: 0.05
---- !u!224 &260448174 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7158801347624491695, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
-  m_PrefabInstance: {fileID: 1981099100}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &322429093 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22897887745533403, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
@@ -5569,7 +5564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22897887745533403, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -188.99997
+      value: -88
       objectReference: {fileID: 0}
     - target: {fileID: 106600703776616932, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_Sprite
@@ -5625,7 +5620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1990820141037419981, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11.999962
+      value: 89.000015
       objectReference: {fileID: 0}
     - target: {fileID: 2629571762287220074, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_RaycastTarget
@@ -5869,6 +5864,7 @@ PrefabInstance:
     - {fileID: 8997379797966620491, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
     - {fileID: 4540074070428165381, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
     - {fileID: 4210167669784367609, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
+    - {fileID: 4876996219008373525, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3055147269551592683, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
@@ -5880,34 +5876,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 499320688354350868, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1056259794}
-    - targetCorrespondingSourceObject: {fileID: 4876996219008373525, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2044086142}
   m_SourcePrefab: {fileID: 100100000, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
 --- !u!224 &1981099101 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7973540391204272979, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
   m_PrefabInstance: {fileID: 1981099100}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2044086138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4876996219008373525, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
-  m_PrefabInstance: {fileID: 1981099100}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2044086142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044086138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57bb90e534a1e4545bf071e017aea2a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonScaler
-  finalScale: 1.2
-  scaleDuration: 0.1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
