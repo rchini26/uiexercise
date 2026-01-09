@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class PauseGameButton : MonoBehaviour
 {
-    public ParticleSystem particleSystem;
+    public ParticleSystem buttonParticleSystem;
     
     public void OnClick()
     {
-        particleSystem.Stop();
+        buttonParticleSystem.Stop();
     }
 }

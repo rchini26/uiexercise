@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8825513cccb694448ad32a0608107ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartGameButton
-  particleSystem: {fileID: 1095676332}
+  buttonParticleSystem: {fileID: 1095676332}
 --- !u!1 &550954668
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ac65b2292488c49a52c9f28af6422e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseGameButton
-  particleSystem: {fileID: 1095676332}
+  buttonParticleSystem: {fileID: 1095676332}
 --- !u!1 &1095676331
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,7 +5577,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5ea1ffbecffd6a04e82643fd90ae1e6e, type: 3}
     - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_text
-      value: UI Exercise
+      value: Unity Editor Exercise
       objectReference: {fileID: 0}
     - target: {fileID: 216089909651201837, guid: e04b1517c6a0ec943857b966846d4abe, type: 3}
       propertyPath: m_fontSize

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class StartGameButton : MonoBehaviour
 {
-    public ParticleSystem particleSystem;
+    public ParticleSystem buttonParticleSystem;
     
     public void OnClick()
     {
-        particleSystem.Play();
+        buttonParticleSystem.Play();
     }
 }
