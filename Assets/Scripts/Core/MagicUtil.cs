@@ -21,9 +21,10 @@ public static class MagicUtil
     }
 
     #region SCALES
-    public static void Scale(this Transform t, float size = 1.2f)
+    public static T Scale<T>(this T obj, float size = 1.2f) where T : Component
     {
-        t.localScale = Vector3.one * size;
+        obj.transform.localScale = Vector3.one * size;
+        return obj;
     }
     #endregion
 
