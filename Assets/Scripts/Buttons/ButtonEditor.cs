@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.UI;
 
 [CustomEditor(typeof(ButtonScaler))]
 public class ButtonEditor : Editor
@@ -20,5 +21,12 @@ public class ButtonEditor : Editor
             scaler.Scale(1);
             Debug.Log("Normalized Scale");
         }
+    }
+    
+    [MenuItem("Create/Buttons")]
+    public static void CreateButton()
+    {
+        GameObject button = new GameObject("Button");
+        button.AddComponent<Button>();
     }
 }
